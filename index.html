@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La Roses des Vents</title>
+    <link rel="stylesheet" href="css/navigation.css">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js" defer></script>
+    <script src="js/slider.js" defer></script>
+    <script src="js/navigation.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div class="toggleContainer">
+    <div class="menuToggle" onclick="toggleMenu()"></div>
+    </div>
+    <div class="navContainer"> 
+    <div class="navigation">
+
+        <div class="navArea">
+            <ul>
+                <li>
+                    <a href="index.html" onmouseenter="changeImage('content/acceuil.png')">Acceuil</a>
+                </li>
+                <li>
+                    <a href="services.html" onmouseenter="changeImage('content/services.png')">Services</a>
+                </li>
+                <li>
+                    <a href="galerie.html" onmouseenter="changeImage('content/galerie.png')">Galerie</a>
+                </li>
+                <li>
+                    <a href="contact.html" onmouseenter="changeImage('content/contact.png')">Contact</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="imgArea">
+            <div class="text">
+                <img src="content/logo.svg" alt="La rose des vents">
+            </div>
+            <img src="content/acceuil.png" alt="acceuil" id="slider">
+        </div>
+
+        <div class="mapArea">
+            <img src="content/map-nb.png" alt="">
+            <div class="text">
+                <h4>Adresse</h4>
+                <p>30 avenue du vents</p>
+                <p>06000 Nice</p>
+                <h4>Contact</h4>
+                <a url="larosedesvents@gmail.com">larosedesvents@gmail.com</a>
+                <p>+33 6 49 45 78 56</p>
+            </div>
+        </div>
+        </div>
+    </div>
+
+<section>
+    <div class="swiper">
+
+        <div class="swiper-wrapper">
+
+          <div class="swiper-slide"><img class="photo-slider" src="content/photo-1-small.png" alt=""></div>
+          <div class="swiper-slide"><img class="photo-slider" src="content/photo-2-small.png" alt=""></div>
+          <div class="swiper-slide"><img class="photo-slider" src="content/photo-3-small.jpg" alt=""></div>
+          <div class="swiper-slide"><img class="photo-slider" src="content/photo-4-small.jpg" alt=""></div>
+        </div>
+
+        <div class="swiper-pagination"></div>
+      
+        <div class="swiper-button-prev swiper-button-white"></div>
+        <div class="swiper-button-next swiper-button-white"></div>
+    
+      </div>
+
+<div class="container-text">
+    <div class="texte">
+        <h2>Du matériel de qualité</h2>
+        <br>
+        <p>Que ce soit pour notre outillage, pour les consommables ou la matière première, nous attachons un intérêt tout particulier à la qualité de ce que nous utilisons. Choisissez le meilleur pour vos réalisations.</p>
+    </div>
+
+    <div class="texte">
+        <h2>L’expérience</h2>
+        <br>
+        <p>Avec plus de 13 années d’expériences à notre actif, nous connaissons les tenants et les aboutissants de notre métier, et savons nous adapter pour satisfaire les besoins de votre espace vert.</p>
+    </div>
+</div>
+    
+</section>
+<footer class="fixed-footer">
+
+</footer>
+
+</body>
+</html>
